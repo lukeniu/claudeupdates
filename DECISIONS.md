@@ -25,3 +25,9 @@ Slack delivery uses Block Kit rather than raw Markdown so links render cleanly a
 ## 2026-05-20: Feed Coverage Improvements
 
 The source fetcher supports both RSS `<item>` and Atom `<entry>` feeds and includes feed summaries in candidate data. This should reduce missed high-signal posts from vendors and publications that do not expose classic RSS items.
+
+## 2026-05-20: TallyHaul Freight Radar
+
+Added a second scheduled workflow for a single freight-focused Slack channel. The radar is built around the TallyHaul thesis: seamless freight forwarding billing/payments and an automation layer for coordination work where humans supervise exceptions rather than manually coordinating each step.
+
+The freight radar uses a separate source basket and prompt, but reuses the same configurable fetch and summarize scripts. It posts to `FREIGHT_SLACK_WEBHOOK_URL` when available, with fallback to `SLACK_WEBHOOK_URL`.

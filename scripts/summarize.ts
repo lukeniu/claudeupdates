@@ -13,14 +13,16 @@ type CandidateFile = {
   candidates: CandidateItem[];
 };
 
-const candidatesPath = new URL("../briefs/candidates.json", import.meta.url);
-const promptPath = new URL("../prompts/founder_brief.md", import.meta.url);
+const candidatesPath = new URL(process.env.CANDIDATES_OUTPUT ?? "../briefs/candidates.json", import.meta.url);
+const promptPath = new URL(process.env.PROMPT_PATH ?? "../prompts/founder_brief.md", import.meta.url);
 const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 
 const { targetDate, candidates } = JSON.parse(await readFile(candidatesPath, "utf8")) as CandidateFile;
 const prompt = (await readFile(promptPath, "utf8")).replaceAll("{{YESTERDAY_DATE}}", targetDate);
 
-const outputPath = new URL(`../briefs/${targetDate}.md`, import.meta.url);
+const outputDir = process.env.BRIEF_OUTPUT_DIR ?? "../briefs";
+const briefTitle = process.env.BRIEF_TITLE ?? "AI Founder Brief";
+const outputPath = new URL(`${outputDir}/${targetDate}.md`, import.meta.url);
 
 if (!process.env.OPENAI_API_KEY) {
   throw new Error("OPENAI_API_KEY is required.");
@@ -66,8 +68,10 @@ await mkdir(new URL("../briefs/", import.meta.url), { recursive: true });
 await writeFile(outputPath, markdown);
 console.log(`Wrote ${outputPath.pathname}`);
 
-if (process.env.SLACK_WEBHOOK_URL) {
-  const slackResponse = await fetch(process.env.SLACK_WEBHOOK_URL, {
+const slackWebhookUrl = process.env.FREIGHT_SLACK_WEBHOOK_URL ?? process.env.SLACK_WEBHOOK_URL;
+
+if (slackWebhookUrl) {
+  const slackResponse = await fetch(slackWebhookUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -113,7 +117,7 @@ function parseBrief(raw: string, date: string): Brief {
 }
 
 function briefToMarkdown(brief: Brief): string {
-  const lines = [`# AI Founder Brief: ${brief.date}`, ""];
+  const lines = [`# ${briefTitle}: ${brief.date}`, ""];
 
   for (const item of brief.items) {
     lines.push(`- [${item.headline}](${item.url}) (${item.source}): ${item.why}`);
@@ -132,7 +136,7 @@ function slackPayload(brief: Brief): object {
       type: "header",
       text: {
         type: "plain_text",
-        text: `AI Founder Brief: ${brief.date}`,
+        text: `${briefTitle}: ${brief.date}`,
       },
     },
   ];
@@ -160,7 +164,7 @@ function slackPayload(brief: Brief): object {
   }
 
   return {
-    text: `AI Founder Brief: ${brief.date}`,
+    text: `${briefTitle}: ${brief.date}`,
     blocks,
   };
 }

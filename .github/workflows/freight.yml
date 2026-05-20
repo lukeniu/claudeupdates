@@ -1,0 +1,43 @@
+name: TallyHaul Freight Radar
+
+on:
+  schedule:
+    # 9:10 AM Asia/Singapore.
+    - cron: "10 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - run: npm run brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FREIGHT_SLACK_WEBHOOK_URL: ${{ secrets.FREIGHT_SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SOURCES_CONFIG: ../config/freight_sources.yml
+          CANDIDATES_OUTPUT: ../briefs/freight-candidates.json
+          PROMPT_PATH: ../prompts/tallyhaul_freight_brief.md
+          BRIEF_OUTPUT_DIR: ../briefs/freight
+          BRIEF_TITLE: TallyHaul Freight Radar
+          RELEVANCE_TERMS: freight,forwarding,billing,payments,invoice,settlement,reconciliation,customs,tariff,compliance,automation,agent,workflow,document,OCR,exception
+          TZ: Asia/Singapore
+
+      - name: Commit generated brief
+        run: |
+          git config user.name "ai-brief-bot"
+          git config user.email "ai-brief-bot@users.noreply.github.com"
+          git add briefs/
+          git commit -m "Add TallyHaul freight radar" || exit 0
+          git push

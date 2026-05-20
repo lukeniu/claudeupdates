@@ -1,0 +1,21 @@
+timezone: Asia/Singapore
+
+sources:
+  - name: FreightWaves
+    url: https://www.freightwaves.com/news/feed
+    type: rss
+  - name: Supply Chain Dive
+    url: https://www.supplychaindive.com/feeds/news/
+    type: rss
+  - name: Google News - freight payments
+    url: https://news.google.com/rss/search?q=%22freight%20forwarding%22%20%28billing%20OR%20payments%20OR%20invoice%20OR%20settlement%20OR%20reconciliation%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en
+    type: rss
+  - name: Google News - freight automation
+    url: https://news.google.com/rss/search?q=%22freight%20forwarding%22%20%28automation%20OR%20AI%20OR%20agent%20OR%20workflow%20OR%20coordination%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en
+    type: rss
+  - name: Google News - customs regulation
+    url: https://news.google.com/rss/search?q=%28customs%20OR%20CBP%20OR%20tariff%20OR%20de%20minimis%20OR%20trade%20compliance%29%20%28freight%20OR%20forwarder%20OR%20importer%20OR%20logistics%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en
+    type: rss
+  - name: Federal Register - trade
+    url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=customs%20tariff%20import%20export%20freight
+    type: rss

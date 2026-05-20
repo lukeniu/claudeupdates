@@ -19,8 +19,8 @@ type CandidateItem = {
   summary: string;
 };
 
-const configPath = new URL("../config/sources.yml", import.meta.url);
-const outputPath = new URL("../briefs/candidates.json", import.meta.url);
+const configPath = new URL(process.env.SOURCES_CONFIG ?? "../config/sources.yml", import.meta.url);
+const outputPath = new URL(process.env.CANDIDATES_OUTPUT ?? "../briefs/candidates.json", import.meta.url);
 
 function parseSimpleYaml(input: string): Config {
   const timezone = input.match(/^timezone:\s*(.+)$/m)?.[1]?.trim() ?? "Asia/Singapore";
@@ -140,6 +140,7 @@ function relevanceScore(item: CandidateItem): number {
     "gemini",
     "claude",
     "openai",
+    ...(process.env.RELEVANCE_TERMS?.split(",").map((term) => term.trim().toLowerCase()).filter(Boolean) ?? []),
   ];
 
   return terms.reduce((score, term) => score + (text.includes(term) ? 1 : 0), 0);
