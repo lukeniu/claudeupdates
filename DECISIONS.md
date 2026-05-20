@@ -13,3 +13,7 @@ The automation posts the generated brief to Slack when `SLACK_WEBHOOK_URL` is av
 ## 2026-05-20: Default OpenAI Model
 
 The summarizer defaults to `gpt-4o-mini` instead of `gpt-5-mini` because the first GitHub Actions test showed `gpt-5-mini` requires organization verification for the configured OpenAI account. The model can be overridden with `OPENAI_MODEL`.
+
+## 2026-05-20: GitHub Actions Write Permission
+
+The workflow declares `contents: write` because generated Markdown briefs are committed back into the repository after successful Slack delivery.
