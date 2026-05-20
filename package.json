@@ -1,0 +1,14 @@
+{
+  "name": "ai-daily-brief",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node --experimental-strip-types scripts/fetch_sources.ts",
+    "summarize": "node --experimental-strip-types scripts/summarize.ts",
+    "brief": "npm run fetch && npm run summarize"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

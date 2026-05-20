@@ -1,0 +1,33 @@
+name: Daily AI Founder Brief
+
+on:
+  schedule:
+    # 9:00 AM Asia/Singapore.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - run: npm run brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          TZ: Asia/Singapore
+
+      - name: Commit generated brief
+        run: |
+          git config user.name "ai-brief-bot"
+          git config user.email "ai-brief-bot@users.noreply.github.com"
+          git add briefs/
+          git commit -m "Add daily AI brief" || exit 0
+          git push

@@ -1,0 +1,24 @@
+timezone: Asia/Singapore
+
+sources:
+  - name: OpenAI
+    url: https://openai.com/news/rss.xml
+    type: rss
+  - name: Anthropic
+    url: https://www.anthropic.com/news/rss.xml
+    type: rss
+  - name: Google AI
+    url: https://blog.google/technology/ai/rss/
+    type: rss
+  - name: Microsoft AI
+    url: https://blogs.microsoft.com/ai/feed/
+    type: rss
+  - name: AWS Machine Learning
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+    type: rss
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    type: rss
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+    type: rss
