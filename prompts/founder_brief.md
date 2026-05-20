@@ -17,9 +17,28 @@ Avoid:
 - Academic-only papers unless they create a near-term product opportunity
 - Generic hype
 - OpenAI bias unless OpenAI genuinely had the main news
+- Over-indexing on one vendor. Use at most 2 items from the same company/source.
+- Low-level implementation tutorials unless they unlock a clear business workflow.
 
 Format:
-- 3 to 6 concise bullets
-- Each bullet should say why it matters to a founder
-- Include source links
-- End with a one-line synthesis
+Return JSON only. No Markdown.
+
+Schema:
+{
+  "date": "{{YESTERDAY_DATE}}",
+  "items": [
+    {
+      "headline": "Short, plain-English update",
+      "why": "One concise founder-relevant sentence, max 24 words.",
+      "source": "Source name",
+      "url": "https://..."
+    }
+  ],
+  "synthesis": "One concise bottom-line sentence."
+}
+
+Rules:
+- Include 3 to 4 items only.
+- Keep each headline under 9 words.
+- Keep each why sentence under 24 words.
+- Hyperlinks are handled downstream, so put the raw URL only in `url`.

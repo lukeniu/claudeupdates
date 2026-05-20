@@ -5,6 +5,7 @@ type CandidateItem = {
   title: string;
   url: string;
   publishedAt: string;
+  summary?: string;
 };
 
 type CandidateFile = {
@@ -42,7 +43,7 @@ const response = await fetch("https://api.openai.com/v1/responses", {
         role: "user",
         content:
           candidates.length === 0
-            ? `No eligible source items were found for ${targetDate}. Write a short quiet-day brief.`
+            ? `No eligible source items were found for ${targetDate}. Return the requested JSON for a quiet-news day.`
             : `Eligible source items for ${targetDate}:\n${JSON.stringify(candidates, null, 2)}`,
       },
     ],
@@ -58,9 +59,11 @@ const text =
   result.output_text ??
   result.output?.flatMap((item: any) => item.content ?? []).map((content: any) => content.text).join("\n") ??
   "";
+const brief = parseBrief(text, targetDate);
+const markdown = briefToMarkdown(brief);
 
 await mkdir(new URL("../briefs/", import.meta.url), { recursive: true });
-await writeFile(outputPath, text.trim() + "\n");
+await writeFile(outputPath, markdown);
 console.log(`Wrote ${outputPath.pathname}`);
 
 if (process.env.SLACK_WEBHOOK_URL) {
@@ -69,9 +72,7 @@ if (process.env.SLACK_WEBHOOK_URL) {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      text: `AI founder brief for ${targetDate}\n\n${text.trim()}`,
-    }),
+    body: JSON.stringify(slackPayload(brief)),
   });
 
   if (!slackResponse.ok) {
@@ -79,4 +80,91 @@ if (process.env.SLACK_WEBHOOK_URL) {
   }
 
   console.log("Posted brief to Slack");
+}
+
+type Brief = {
+  date: string;
+  items: {
+    headline: string;
+    why: string;
+    url: string;
+    source: string;
+  }[];
+  synthesis: string;
+};
+
+function parseBrief(raw: string, date: string): Brief {
+  const json = raw.match(/```json\s*([\s\S]*?)```/i)?.[1] ?? raw.match(/\{[\s\S]*\}/)?.[0] ?? raw;
+
+  try {
+    const parsed = JSON.parse(json) as Brief;
+    return {
+      date: parsed.date || date,
+      items: (parsed.items ?? []).slice(0, 4),
+      synthesis: parsed.synthesis || "",
+    };
+  } catch {
+    return {
+      date,
+      items: [],
+      synthesis: raw.trim(),
+    };
+  }
+}
+
+function briefToMarkdown(brief: Brief): string {
+  const lines = [`# AI Founder Brief: ${brief.date}`, ""];
+
+  for (const item of brief.items) {
+    lines.push(`- [${item.headline}](${item.url}) (${item.source}): ${item.why}`);
+  }
+
+  if (brief.synthesis) {
+    lines.push("", brief.synthesis);
+  }
+
+  return `${lines.join("\n").trim()}\n`;
+}
+
+function slackPayload(brief: Brief): object {
+  const blocks = [
+    {
+      type: "header",
+      text: {
+        type: "plain_text",
+        text: `AI Founder Brief: ${brief.date}`,
+      },
+    },
+  ];
+
+  for (const item of brief.items) {
+    blocks.push({
+      type: "section",
+      text: {
+        type: "mrkdwn",
+        text: `• *<${item.url}|${escapeSlack(item.headline)}>* (${escapeSlack(item.source)})\n${escapeSlack(item.why)}`,
+      },
+    } as any);
+  }
+
+  if (brief.synthesis) {
+    blocks.push({
+      type: "context",
+      elements: [
+        {
+          type: "mrkdwn",
+          text: `*Bottom line:* ${escapeSlack(brief.synthesis)}`,
+        },
+      ],
+    } as any);
+  }
+
+  return {
+    text: `AI Founder Brief: ${brief.date}`,
+    blocks,
+  };
+}
+
+function escapeSlack(value: string): string {
+  return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }

@@ -22,3 +22,6 @@ sources:
   - name: The Verge AI
     url: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
     type: rss
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+    type: rss

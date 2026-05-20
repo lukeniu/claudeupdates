@@ -2,58 +2,39 @@
   "targetDate": "2026-05-19",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "publishedAt": "2026-05-19T10:45:00.000Z"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/",
-      "publishedAt": "2026-05-19T15:26:37.000Z"
-    },
-    {
       "source": "AWS Machine Learning",
       "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
       "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/",
-      "publishedAt": "2026-05-19T15:23:22.000Z"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Accelerate ML feature pipelines with new capabilities in Amazon SageMaker Feature Store",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-ml-feature-pipelines-with-new-capabilities-in-amazon-sagemaker-feature-store/",
-      "publishedAt": "2026-05-19T15:20:33.000Z"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Implementing programmatic tool calling on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/",
-      "publishedAt": "2026-05-19T15:17:00.000Z"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Prompting Amazon Nova 2 for content moderation",
-      "url": "https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/",
-      "publishedAt": "2026-05-18T18:56:36.000Z"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Aderant transforms cloud operations with Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/aderant-transforms-cloud-operations-with-amazon-quick/",
-      "publishedAt": "2026-05-18T17:26:40.000Z"
+      "publishedAt": "2026-05-19T15:23:22.000Z",
+      "summary": "In this post, we demonstrate how you can extend the conversational memory of Kiro CLI by implementing a custom Model Context Protocol (MCP) server that integrates with Amazon Bedrock AgentCore Memory. You can use Kiro CLI to interact with AI agents of Kiro directly from your terminal. Amazon Bedrock AgentCore Memory is a fully managed service that allows AI agents to retain information from past interactions, creating more intelligent and context-aware conversations. By implementing a custom MCP server, you can provide Kiro CLI with tools to store and retrieve conversation context, monitor memory usage, and manage the underlying Bedrock Agent Core Memory infrastructure."
     },
     {
       "source": "TechCrunch AI",
       "title": "OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team",
       "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-      "publishedAt": "2026-05-19T15:43:04.000Z"
+      "publishedAt": "2026-05-19T15:43:04.000Z",
+      "summary": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company. It's also one of the most expensive, compute-intensive phases of building a frontier model."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "publishedAt": "2026-05-19T10:45:00.000Z",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/",
+      "publishedAt": "2026-05-19T15:26:37.000Z",
+      "summary": "In this post, you’ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resulting in more responsive and intelligent customer interactions. We’ll explore three popular architectural patterns for voice agents, highlighting their trade-offs and best practices for minimizing latency."
     },
     {
       "source": "TechCrunch AI",
       "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
       "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
-      "publishedAt": "2026-05-18T21:29:31.000Z"
+      "publishedAt": "2026-05-18T21:29:31.000Z",
+      "summary": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it."
     }
   ]
 }

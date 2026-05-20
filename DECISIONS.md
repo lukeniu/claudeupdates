@@ -17,3 +17,11 @@ The summarizer defaults to `gpt-4o-mini` instead of `gpt-5-mini` because the fir
 ## 2026-05-20: GitHub Actions Write Permission
 
 The workflow declares `contents: write` because generated Markdown briefs are committed back into the repository after successful Slack delivery.
+
+## 2026-05-20: Concise Slack Formatting
+
+Slack delivery uses Block Kit rather than raw Markdown so links render cleanly and the daily message stays compact. The model returns structured JSON, and the script renders both Slack blocks and the archived Markdown from that structure.
+
+## 2026-05-20: Feed Coverage Improvements
+
+The source fetcher supports both RSS `<item>` and Atom `<entry>` feeds and includes feed summaries in candidate data. This should reduce missed high-signal posts from vendors and publications that do not expose classic RSS items.

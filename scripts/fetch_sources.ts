@@ -16,6 +16,7 @@ type CandidateItem = {
   title: string;
   url: string;
   publishedAt: string;
+  summary: string;
 };
 
 const configPath = new URL("../config/sources.yml", import.meta.url);
@@ -41,7 +42,20 @@ function parseSimpleYaml(input: string): Config {
 
 function xmlText(item: string, tag: string): string {
   const match = item.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
-  return decodeXml(match?.[1]?.replace(/^<!\[CDATA\[|\]\]>$/g, "").trim() ?? "");
+  return cleanText(match?.[1] ?? "");
+}
+
+function xmlLink(item: string): string {
+  const href = item.match(/<link[^>]*href=["']([^"']+)["'][^>]*>/i)?.[1];
+  return decodeXml(href ?? xmlText(item, "link"));
+}
+
+function cleanText(value: string): string {
+  return decodeXml(value)
+    .replace(/^<!\[CDATA\[|\]\]>$/g, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function decodeXml(value: string): string {
@@ -77,17 +91,22 @@ async function fetchRss(source: Source, timezone: string, targetDate: string): P
   }
 
   const xml = await response.text();
-  const items = xml.match(/<item[\s\S]*?<\/item>/gi) ?? [];
+  const items = [
+    ...(xml.match(/<item[\s\S]*?<\/item>/gi) ?? []),
+    ...(xml.match(/<entry[\s\S]*?<\/entry>/gi) ?? []),
+  ];
 
   return items
     .map((item) => {
-      const publishedRaw = xmlText(item, "pubDate") || xmlText(item, "dc:date") || xmlText(item, "published");
+      const publishedRaw =
+        xmlText(item, "pubDate") || xmlText(item, "dc:date") || xmlText(item, "published") || xmlText(item, "updated");
       const published = new Date(publishedRaw);
       return {
         source: source.name,
         title: xmlText(item, "title"),
-        url: xmlText(item, "link"),
+        url: xmlLink(item),
         publishedAt: Number.isNaN(published.getTime()) ? "" : published.toISOString(),
+        summary: xmlText(item, "description") || xmlText(item, "summary") || xmlText(item, "content"),
       };
     })
     .filter((item) => item.title && item.url && item.publishedAt)
@@ -100,7 +119,45 @@ const results = await Promise.allSettled(
   config.sources.map((source) => fetchRss(source, config.timezone, targetDate)),
 );
 
-const candidates = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
+const rankedCandidates = results
+  .flatMap((result) => (result.status === "fulfilled" ? result.value : []))
+  .sort((a, b) => relevanceScore(b) - relevanceScore(a));
+const candidates = capPerSource(rankedCandidates, 2).slice(0, 20);
+
+function relevanceScore(item: CandidateItem): number {
+  const text = `${item.title} ${item.summary}`.toLowerCase();
+  const terms = [
+    "launch",
+    "release",
+    "agent",
+    "api",
+    "tool",
+    "workflow",
+    "enterprise",
+    "pricing",
+    "model",
+    "copilot",
+    "gemini",
+    "claude",
+    "openai",
+  ];
+
+  return terms.reduce((score, term) => score + (text.includes(term) ? 1 : 0), 0);
+}
+
+function capPerSource(items: CandidateItem[], maxPerSource: number): CandidateItem[] {
+  const counts = new Map<string, number>();
+
+  return items.filter((item) => {
+    const count = counts.get(item.source) ?? 0;
+    if (count >= maxPerSource) {
+      return false;
+    }
+
+    counts.set(item.source, count + 1);
+    return true;
+  });
+}
 
 await mkdir(new URL("../briefs/", import.meta.url), { recursive: true });
 await writeFile(outputPath, JSON.stringify({ targetDate, candidates }, null, 2));
