@@ -14,6 +14,7 @@ type CandidateFile = {
 
 const candidatesPath = new URL("../briefs/candidates.json", import.meta.url);
 const promptPath = new URL("../prompts/founder_brief.md", import.meta.url);
+const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 
 const { targetDate, candidates } = JSON.parse(await readFile(candidatesPath, "utf8")) as CandidateFile;
 const prompt = (await readFile(promptPath, "utf8")).replaceAll("{{YESTERDAY_DATE}}", targetDate);
@@ -31,7 +32,7 @@ const response = await fetch("https://api.openai.com/v1/responses", {
     Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
   },
   body: JSON.stringify({
-    model: "gpt-5-mini",
+    model,
     input: [
       {
         role: "system",

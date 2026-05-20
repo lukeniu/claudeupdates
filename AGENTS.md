@@ -17,3 +17,4 @@ This workspace contains a GitHub Actions scaffold for a daily AI founder brief.
 - Keep the brief practical for an AI software founder.
 - Keep the date gate strict: only the day before the run should be summarized.
 - Store Slack webhooks as GitHub secrets. Never hardcode webhook URLs.
+- The summarizer defaults to `gpt-4o-mini`; override with `OPENAI_MODEL` if a different model is available.
