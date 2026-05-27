@@ -1,26 +1,26 @@
 {
-  "targetDate": "2026-05-25",
+  "targetDate": "2026-05-26",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "publishedAt": "2026-05-25T00:00:00.000Z",
-      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency."
+      "source": "TechCrunch AI",
+      "title": "What ClickUp’s mass layoff tells us about the future of work",
+      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+      "publishedAt": "2026-05-25T16:00:00.000Z",
+      "summary": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Transforming professional work: How Amazon Quick turns document creation from hours into minutes",
+      "url": "https://aws.amazon.com/blogs/machine-learning/transforming-professional-work-how-amazon-quick-turns-document-creation-from-hours-into-minutes/",
+      "publishedAt": "2026-05-26T15:59:16.000Z",
+      "summary": "In this post, we explore how the Amazon Quick document and visualization creation capabilities work, what you can build with them, and how professionals across roles are using them to reclaim hours of their workweek. From technical execution to strategic judgment Most professional roles carry an unspoken assumption that a significant portion of your time […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "The pope’s AI encyclical isn’t really about AI",
-      "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
-      "publishedAt": "2026-05-25T15:09:41.000Z",
-      "summary": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the world to its own advantage."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Startup Battlefield 200 applications close in days: Apply before May 27",
-      "url": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
-      "publishedAt": "2026-05-25T14:30:00.000Z",
-      "summary": "The deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $100,000. Apply now."
+      "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
+      "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "publishedAt": "2026-05-26T14:55:05.000Z",
+      "summary": "For years, UMG has pushed platforms, streaming services, and AI companies to implement stricter content moderation policies."
     }
   ]
 }
