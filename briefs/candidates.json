@@ -1,26 +1,47 @@
 {
-  "targetDate": "2026-05-26",
+  "targetDate": "2026-05-27",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "What ClickUp’s mass layoff tells us about the future of work",
-      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
-      "publishedAt": "2026-05-25T16:00:00.000Z",
-      "summary": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents."
+      "source": "OpenAI",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Building self-improving tax agents with Codex",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Transforming professional work: How Amazon Quick turns document creation from hours into minutes",
-      "url": "https://aws.amazon.com/blogs/machine-learning/transforming-professional-work-how-amazon-quick-turns-document-creation-from-hours-into-minutes/",
-      "publishedAt": "2026-05-26T15:59:16.000Z",
-      "summary": "In this post, we explore how the Amazon Quick document and visualization creation capabilities work, what you can build with them, and how professionals across roles are using them to reclaim hours of their workweek. From technical execution to strategic judgment Most professional roles carry an unspoken assumption that a significant portion of your time […]"
+      "title": "From idea to AI app: Creating intelligent research assistants with Strands",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/",
+      "publishedAt": "2026-05-26T16:28:08.000Z",
+      "summary": "Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex architectures. Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. I’ve seen straightforward AI ideas balloon into sprawling projects that demand […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
-      "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
-      "publishedAt": "2026-05-26T14:55:05.000Z",
-      "summary": "For years, UMG has pushed platforms, streaming services, and AI companies to implement stricter content moderation policies."
+      "title": "OpenRouter more than doubles valuation to $1.3B in a year",
+      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "publishedAt": "2026-05-26T18:33:01.000Z",
+      "summary": "OpenRouter has raised a $113 million Series B led by CapitalG. Its 5x growth in usage over six months indicates the multi-AI-model future is here."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Technical deep dive: AgentCore payments and innovation in agentic commerce",
+      "url": "https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce/",
+      "publishedAt": "2026-05-26T17:57:18.000Z",
+      "summary": "Amazon Bedrock AgentCore payments is now available in preview, it provides instant payments to paid external services with no manual billing setup per provider, stablecoin support for cost-effective microtransactions that make sub-cent transactions economically viable, and configurable spending guardrails that give you fine-grained control over agent budgets and transaction limits. In this post, we walk you through a technical deep dive of AgentCore payments."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
+      "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
+      "publishedAt": "2026-05-27T14:15:00.000Z",
+      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stage."
     }
   ]
 }
