@@ -1,47 +1,54 @@
 {
-  "targetDate": "2026-05-27",
+  "targetDate": "2026-05-28",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "url": "https://openai.com/index/warp",
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Building self-improving tax agents with Codex",
-      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "publishedAt": "2026-05-27T07:00:00.000Z",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
+      "source": "TechCrunch AI",
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+      "publishedAt": "2026-05-28T07:00:00.000Z",
+      "summary": "Built on top of the open source Hermes project, Vertu's new foldable combines AI-agent workflows, enterprise integrations, and ultra-premium luxury finishes."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "From idea to AI app: Creating intelligent research assistants with Strands",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/",
-      "publishedAt": "2026-05-26T16:28:08.000Z",
-      "summary": "Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex architectures. Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. I’ve seen straightforward AI ideas balloon into sprawling projects that demand […]"
+      "title": "Powering agentic AI sales strategy with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-05-27T18:00:07.000Z",
+      "summary": "As agent adoption scaled, we saw a common pattern emerge across enterprises, including our own sales organization: specialized agents deliver value, but without orchestration, users carry the cognitive load of choosing between them. At AWS Sales, this meant more than 20 domain-specific agents deployed across the global organization, with representatives context-switching between systems instead of […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenRouter more than doubles valuation to $1.3B in a year",
-      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
-      "publishedAt": "2026-05-26T18:33:01.000Z",
-      "summary": "OpenRouter has raised a $113 million Series B led by CapitalG. Its 5x growth in usage over six months indicates the multi-AI-model future is here."
+      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "publishedAt": "2026-05-28T15:35:43.000Z",
+      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person."
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "publishedAt": "2026-05-28T12:00:00.000Z",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations."
+    },
+    {
+      "source": "Google AI",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "publishedAt": "2026-05-28T15:00:00.000Z",
+      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Technical deep dive: AgentCore payments and innovation in agentic commerce",
-      "url": "https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce/",
-      "publishedAt": "2026-05-26T17:57:18.000Z",
-      "summary": "Amazon Bedrock AgentCore payments is now available in preview, it provides instant payments to paid external services with no manual billing setup per provider, stablecoin support for cost-effective microtransactions that make sub-cent transactions economically viable, and configurable spending guardrails that give you fine-grained control over agent budgets and transaction limits. In this post, we walk you through a technical deep dive of AgentCore payments."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
-      "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
-      "publishedAt": "2026-05-27T14:15:00.000Z",
-      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stage."
+      "title": "Building AI agents for business support using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-05-27T20:06:34.000Z",
+      "summary": "In this post, we share how the AWS Generative AI Innovation Center (GenAIIC) collaborated with Works Human Intelligence (WHI) to build two AI agents using Amazon Bedrock AgentCore. We discuss the challenges encountered and the solutions that reduced costs by up to 97% while improving operational efficiency."
     }
   ]
 }
