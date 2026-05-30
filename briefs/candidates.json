@@ -1,54 +1,54 @@
 {
-  "targetDate": "2026-05-28",
+  "targetDate": "2026-05-29",
   "candidates": [
     {
       "source": "TechCrunch AI",
-      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
-      "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
-      "publishedAt": "2026-05-28T07:00:00.000Z",
-      "summary": "Built on top of the open source Hermes project, Vertu's new foldable combines AI-agent workflows, enterprise integrations, and ultra-premium luxury finishes."
+      "title": "Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "publishedAt": "2026-05-28T17:00:09.000Z",
+      "summary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Powering agentic AI sales strategy with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-05-27T18:00:07.000Z",
-      "summary": "As agent adoption scaled, we saw a common pattern emerge across enterprises, including our own sales organization: specialized agents deliver value, but without orchestration, users carry the cognitive load of choosing between them. At AWS Sales, this meant more than 20 domain-specific agents deployed across the global organization, with representatives context-switching between systems instead of […]"
+      "title": "Claude Opus 4.8 is now available on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-4-8-is-now-available-on-aws/",
+      "publishedAt": "2026-05-28T17:51:32.000Z",
+      "summary": "This post covers Opus 4.8's improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
-      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-      "publishedAt": "2026-05-28T15:35:43.000Z",
-      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person."
+      "title": "Asana acquires no-code agent-builder StackAI",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "publishedAt": "2026-05-28T20:06:07.000Z",
+      "summary": "Asana will incorporate StackAI into its growing suite of AI workflow tools."
     },
     {
       "source": "OpenAI",
-      "title": "How Endava builds an agentic organization with Codex",
-      "url": "https://openai.com/index/endava",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "publishedAt": "2026-05-29T03:00:00.000Z",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI."
     },
     {
       "source": "OpenAI",
-      "title": "OpenAI’s Frontier Governance Framework",
-      "url": "https://openai.com/index/openai-frontier-governance-framework",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations."
-    },
-    {
-      "source": "Google AI",
-      "title": "Catch up on 12 major I/O 2026 moments",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "publishedAt": "2026-05-28T15:00:00.000Z",
-      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "publishedAt": "2026-05-29T00:00:00.000Z",
+      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Building AI agents for business support using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-05-27T20:06:34.000Z",
-      "summary": "In this post, we share how the AWS Generative AI Innovation Center (GenAIIC) collaborated with Works Human Intelligence (WHI) to build two AI agents using Amazon Bedrock AgentCore. We discuss the challenges encountered and the solutions that reduced costs by up to 97% while improving operational efficiency."
+      "title": "Streamline external access to Amazon SageMaker MLflow using a REST API proxy",
+      "url": "https://aws.amazon.com/blogs/machine-learning/streamline-external-access-to-amazon-sagemaker-mlflow-using-a-rest-api-proxy/",
+      "publishedAt": "2026-05-28T20:35:44.000Z",
+      "summary": "In this post, we demonstrate how to build a secure Flask-based MLflow proxy service that provides HTTPS access to Amazon SageMaker MLflow without requiring the MLflow SDK. This solution is for organizations undergoing cloud transformation who want to preserve their existing ML workflows while adopting cloud-native services."
+    },
+    {
+      "source": "Google AI",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work."
     }
   ]
 }
