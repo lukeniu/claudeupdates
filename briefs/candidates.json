@@ -1,19 +1,33 @@
 {
-  "targetDate": "2026-05-31",
+  "targetDate": "2026-06-01",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
-      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-      "publishedAt": "2026-05-30T16:30:00.000Z",
-      "summary": "The golden age of Microsoft's Github Copilot appears to be at an end."
+      "source": "OpenAI",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Making sense of the debate over AI psychosis",
-      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
-      "publishedAt": "2026-05-31T15:30:00.000Z",
-      "summary": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\""
+      "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "publishedAt": "2026-06-01T14:49:10.000Z",
+      "summary": "Alternative search engine DuckDuckGo launches 'no AI' web extensions for Chrome and Firefox users."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Erin Brockovich takes aim at data center secrecy",
+      "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+      "publishedAt": "2026-05-31T21:05:14.000Z",
+      "summary": "Environmental activist Erin Brockovich has a new mission."
     }
   ]
 }
