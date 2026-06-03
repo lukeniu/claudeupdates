@@ -1,33 +1,54 @@
 {
-  "targetDate": "2026-06-01",
+  "targetDate": "2026-06-02",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "publishedAt": "2026-06-01T10:00:00.000Z",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
+      "source": "AWS Machine Learning",
+      "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/",
+      "publishedAt": "2026-06-01T18:35:03.000Z",
+      "summary": "While deploying Model Context Protocol (MCP) servers in production, enterprises need fine-grained access control across servers, observability into which teams use which tools, security guarantees against data exfiltration, and centralized credential management, all at scale. Amazon Bedrock AgentCore Gateway sits between MCP servers and the clients that consume them, centralizing credential management, observability, and secure […]"
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "OpenAI models and Codex on Amazon Bedrock are now generally available",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
+      "publishedAt": "2026-06-01T21:31:12.000Z",
+      "summary": "GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy them in production applications and agents today, on Bedrock’s high performance inference engine.&nbsp;"
     },
     {
       "source": "OpenAI",
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "publishedAt": "2026-06-01T12:00:00.000Z",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities."
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "publishedAt": "2026-06-02T09:00:00.000Z",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "publishedAt": "2026-06-02T02:00:00.000Z",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation."
     },
     {
       "source": "TechCrunch AI",
-      "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
-      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
-      "publishedAt": "2026-06-01T14:49:10.000Z",
-      "summary": "Alternative search engine DuckDuckGo launches 'no AI' web extensions for Chrome and Firefox users."
+      "title": "Anthropic files to go public",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "publishedAt": "2026-06-01T16:36:55.000Z",
+      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Erin Brockovich takes aim at data center secrecy",
-      "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-      "publishedAt": "2026-05-31T21:05:14.000Z",
-      "summary": "Environmental activist Erin Brockovich has a new mission."
+      "title": "This AI weather startup is out-forecasting government agencies",
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "summary": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collected by the balloons is fed into the models."
+    },
+    {
+      "source": "Google AI",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "summary": "Learn how Googlers used AI to produce Google I/O 2026."
     }
   ]
 }
