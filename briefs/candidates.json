@@ -1,47 +1,19 @@
 {
-  "targetDate": "2026-06-04",
+  "targetDate": "2026-06-06",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Fundamental’s Large Tabular Model NEXUS is now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fundamentals-large-tabular-model-nexus-is-now-available-on-amazon-sagemaker-jumpstart/",
-      "publishedAt": "2026-06-03T17:55:37.000Z",
-      "summary": "In this post, we show you how to get started with NEXUS on Amazon SageMaker JumpStart, walk through the deployment process, and demonstrate how to run predictions against your enterprise datasets."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Reducing container cold start times using SOCI index on DLAMI and DLC",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-container-cold-start-times-using-soci-index-on-dlami-and-dlc/",
-      "publishedAt": "2026-06-03T16:26:35.000Z",
-      "summary": "In this post, we look at how to use SOCI on publicly available Deep Learning AMIs and Containers, when to use the various SOCI modes provided by the tool, and how to quickly and efficiently use this tool in your workloads today."
+      "source": "TechCrunch AI",
+      "title": "Google will pay SpaceX $920M per month for compute",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "publishedAt": "2026-06-05T18:57:20.000Z",
+      "summary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
-      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
-      "publishedAt": "2026-06-04T15:05:00.000Z",
-      "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
-      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
-      "publishedAt": "2026-06-03T22:56:51.000Z",
-      "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "publishedAt": "2026-06-04T09:00:00.000Z",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations."
+      "title": "Startup Battlefield 200 applications officially close in 3 days",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "publishedAt": "2026-06-05T20:00:00.000Z",
+      "summary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West."
     }
   ]
 }
