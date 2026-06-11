@@ -1,47 +1,47 @@
 {
-  "targetDate": "2026-06-09",
+  "targetDate": "2026-06-10",
   "candidates": [
     {
       "source": "AWS Machine Learning",
-      "title": "It’s safe to close your laptop now: Hosting coding agents on Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-06-08T16:35:02.000Z",
-      "summary": "Amazon Bedrock AgentCore Runtime gives each agent session its own isolated microVM with a persistent workspace, secure tool access through Gateway, and built-in observability—so you can run Claude Code, Codex, Kiro, and Cursor in parallel without sharing secrets, ports, or filesystems. Close the lid, go to dinner, and pick up where you left off tomorrow."
+      "title": "Build an agentic incident triage assistant with Amazon Quick and New Relic",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-incident-triage-assistant-with-amazon-quick-and-new-relic/",
+      "publishedAt": "2026-06-09T16:10:37.000Z",
+      "summary": "This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for handoff."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "publishedAt": "2026-06-10T15:00:00.000Z",
+      "summary": "AI coding agent startup Niteshift has raised a $7 million seed round from a who's who of angels. It's betting companies will want power over, not lock-in with model makers."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Decart’s new world model can simulate hours of photorealistic driving — with some caveats",
+      "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+      "publishedAt": "2026-06-10T13:07:56.000Z",
+      "summary": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on."
+    },
+    {
+      "source": "OpenAI",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "url": "https://openai.com/index/lseg",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Unlocking AI flexibility in Europe: A guide to cross-region inference for EU data processing and model access",
-      "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/",
-      "publishedAt": "2026-06-08T16:40:34.000Z",
-      "summary": "With access to the latest generative AI models and high-performance accelerated compute in high global demand, AWS customers need tools to take advantage of model availability and capacity across multiple AWS Regions, while still meeting their security and privacy requirements. cross-Region Inference (CRIS) on Amazon Bedrock meets these needs by automatically routing requests across multiple […]"
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
-      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-      "publishedAt": "2026-06-08T22:41:45.000Z",
-      "summary": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "How an e-scooter founder raised $5 million to build space data centers",
-      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
-      "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers."
+      "title": "Stop hand-tuning kernels: How Neuron Agentic Development accelerates AWS Trainium optimizations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stop-hand-tuning-kernels-how-neuron-agentic-development-accelerates-aws-trainium-optimizations/",
+      "publishedAt": "2026-06-10T15:26:45.000Z",
+      "summary": "Today, we’re announcing the Neuron Agentic Development capabilities: a collection of AI agents and skills that make this possible for developers building on AWS Trainium and AWS Inferentia. In this post, we explain how the Neuron Agentic Development capabilities accelerate the kernel development workflow."
     },
     {
       "source": "OpenAI",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "url": "https://openai.com/index/nextdoor",
-      "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes."
-    },
-    {
-      "source": "OpenAI",
-      "title": "What Codex unlocks for Notion",
-      "url": "https://openai.com/index/notion",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams."
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT."
     }
   ]
 }
