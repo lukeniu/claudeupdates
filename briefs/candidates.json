@@ -1,47 +1,54 @@
 {
-  "targetDate": "2026-06-11",
+  "targetDate": "2026-06-12",
   "candidates": [
     {
       "source": "OpenAI",
-      "title": "OpenAI to acquire Ona",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "publishedAt": "2026-06-12T10:00:00.000Z",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
     },
     {
       "source": "OpenAI",
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "publishedAt": "2026-06-10T20:00:00.000Z",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance."
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "publishedAt": "2026-06-12T00:00:00.000Z",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Evaluate AI agents systematically with Agent-EvalKit",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/",
-      "publishedAt": "2026-06-11T15:49:47.000Z",
-      "summary": "Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six evaluation phases, using a travel research agent built with the Strands Agents SDK and Amazon Bedrock as a running example."
+      "title": "From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-pdfs-to-insights-architecting-an-intelligent-document-processing-pipeline-with-aws-generative-ai-services/",
+      "publishedAt": "2026-06-12T14:43:11.000Z",
+      "summary": "This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents. We demonstrate how BDA extracts and analyzes document content, while Strands Agent hosted on Amazon Bedrock AgentCore Runtime coordinate specialized processing tasks, and Amazon Bedrock Knowledge Base enable contextual understanding across multiple documents. By combining these capabilities within a unified architecture, organizations can transform their document processing workflows with minimal development effort."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimize-blueprint-extraction-accuracy-in-amazon-bedrock-data-automation/",
-      "publishedAt": "2026-06-11T15:11:56.000Z",
-      "summary": "Blueprint instruction optimization is a BDA feature that automatically refines your extraction instructions to address this challenge directly. You provide three to ten example documents with expected values, and BDA refines your blueprint instructions to improve accuracy in minutes, not weeks. No separate model fine-tuning is required. By the end of this post, you can optimize your blueprints to improve accuracy, run the optimization workflow through the Amazon Bedrock console or the API, and apply best practices for selecting examples and ground truth."
+      "title": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-meeting-prep-and-follow-up-assistant-with-amazon-quick-and-cisco-webex-mcp-servers/",
+      "publishedAt": "2026-06-12T14:49:40.000Z",
+      "summary": "This post shows how to build a custom meeting prep and follow-up assistant using Amazon Quick and Cisco Webex MCP servers. From a single prompt, the agent finds an upcoming Webex meeting, reviews prior meeting summaries and transcripts, and pulls related Vidcast highlights and transcript context. It then searches Webex message threads for unresolved follow-ups and creates a concise prep brief. After the meeting, the same assistant can summarize the discussion and identify action items. It can also find related Vidcast updates and draft a follow-up message for the right Webex space."
     },
     {
       "source": "TechCrunch AI",
-      "title": "How memory tools can make AI models worse",
-      "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
-      "publishedAt": "2026-06-10T16:11:08.000Z",
-      "summary": "New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies."
+      "title": "It’s hot IPO summer, and the MANGOS are ripe",
+      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "publishedAt": "2026-06-12T15:50:52.000Z",
+      "summary": "The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it’s a stress test for investors, for valuations, and for […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "Pool’s new app turns your screenshots into something useful",
-      "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
-      "publishedAt": "2026-06-11T15:30:00.000Z",
-      "summary": "Pool's new app automatically sorts screenshots into personalized collections, tracks down the original links behind saved content, and helps you rediscover products, recipes, travel ideas, and other things you meant to revisit."
+      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "publishedAt": "2026-06-12T04:30:00.000Z",
+      "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation."
+    },
+    {
+      "source": "Google AI",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "publishedAt": "2026-06-11T20:00:00.000Z",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs."
     }
   ]
 }
