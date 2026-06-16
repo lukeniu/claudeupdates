@@ -1,19 +1,40 @@
 {
-  "targetDate": "2026-06-14",
+  "targetDate": "2026-06-15",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "As Anthropic suspends access to new models, India debates its AI future",
-      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-      "publishedAt": "2026-06-14T03:00:00.000Z",
-      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions."
+      "source": "OpenAI",
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "publishedAt": "2026-06-14T17:00:00.000Z",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/",
+      "publishedAt": "2026-06-15T13:56:33.000Z",
+      "summary": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end. This walkthrough targets developers building multi-step AI workflows who need isolated execution environments for their agents. In Part 2 of the notebook, you can deploy this same agent to Bedrock AgentCore Runtime using the AgentCore CLI, so it runs as a managed, session-isolated service."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-      "publishedAt": "2026-06-13T19:11:41.000Z",
-      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday."
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "publishedAt": "2026-06-15T14:34:45.000Z",
+      "summary": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "publishedAt": "2026-06-15T13:00:00.000Z",
+      "summary": "NewCore argues the next challenge in enterprise security will be managing AI agents, not people."
+    },
+    {
+      "source": "Google AI",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "publishedAt": "2026-06-15T15:00:00.000Z",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…"
     }
   ]
 }
