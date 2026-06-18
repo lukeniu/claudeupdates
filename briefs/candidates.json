@@ -1,40 +1,54 @@
 {
-  "targetDate": "2026-06-16",
+  "targetDate": "2026-06-17",
   "candidates": [
     {
+      "source": "TechCrunch AI",
+      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "publishedAt": "2026-06-16T18:00:00.000Z",
+      "summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
+      "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/",
+      "publishedAt": "2026-06-16T22:46:46.000Z",
+      "summary": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the InvokeGuardrailChecks API works and how to use it to build safe, multi-turn agentic AI applications."
+    },
+    {
       "source": "OpenAI",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "publishedAt": "2026-06-16T00:00:00.000Z",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy."
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "publishedAt": "2026-06-17T10:00:00.000Z",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Introducing Gemma 4 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/",
-      "publishedAt": "2026-06-15T20:24:15.000Z",
-      "summary": "Today, we are announcing the availability of the Gemma 4 family on Amazon Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma 4 is a family of open-weight models designed with a focus on intelligence-per-parameter across a broad range of deployment scenarios. The family includes three instruction-tuned variants: Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B. These cover dense and mixture-of-experts (MoE) architectures, where only a fraction of the model’s parameters activate per request. The variants offer built-in reasoning, native function calling, and multimodal input across text and image."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "AI Agent Failure Detection and Root Cause Analysis with Strands Evals",
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-agent-failure-detection-and-root-cause-analysis-with-strands-evals/",
-      "publishedAt": "2026-06-15T18:07:59.000Z",
-      "summary": "In this post, we walk you through calling the detector functions to diagnose real agent failures. You learn how to interpret their structured output: categorized failures with confidence scores, causal chains linking root causes to downstream symptoms, and fix recommendations specifying whether a change belongs in your system prompt or tool definitions. You also learn how to integrate detection into your evaluation pipeline for automated diagnosis on every test run."
+      "title": "New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/",
+      "publishedAt": "2026-06-17T15:29:36.000Z",
+      "summary": "Today we're introducing new capabilities on Amazon Bedrock AgentCore, the platform to build, connect, and optimize agents. In this post, we cover how these capabilities close each gap: connecting agents to organizational, web, and paid knowledge; helping teams find and fix what's going wrong in production; and enforcing controls that scale as agents grow more capable. Together, they help you build more capable agents faster, govern them with controls that scale, and improve them continuously."
     },
     {
       "source": "TechCrunch AI",
-      "title": "ChatGPT’s market share slips below 50% for first time",
-      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-      "publishedAt": "2026-06-16T10:30:00.000Z",
-      "summary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million."
+      "title": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "summary": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface."
     },
     {
-      "source": "TechCrunch AI",
-      "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
-      "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
-      "publishedAt": "2026-06-16T06:59:00.000Z",
-      "summary": "Respond.io, one of Malaysia's startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat."
+      "source": "OpenAI",
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions."
+    },
+    {
+      "source": "Google AI",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
     }
   ]
 }
