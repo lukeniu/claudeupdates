@@ -1,33 +1,61 @@
 {
-  "targetDate": "2026-06-29",
+  "targetDate": "2026-06-30",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "publishedAt": "2026-06-28T17:00:00.000Z",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "publishedAt": "2026-06-29T07:00:00.000Z",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
+      "source": "AWS Machine Learning",
+      "title": "Debugging production agents with Amazon Bedrock AgentCore Observability",
+      "url": "https://aws.amazon.com/blogs/machine-learning/debugging-production-agents-with-amazon-bedrock-agentcore-observability/",
+      "publishedAt": "2026-06-29T17:25:21.000Z",
+      "summary": "In this post, you learn how to debug production agent failures using built-in observability capabilities. We walk through common failure patterns, show how to analyze agent behavior with traces and metrics, and provide structured workflows for resolving issues such as infinite loops and tool invocation failures. This is Part 1 of a two-part series. Part 2 covers performance optimization and memory management."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
-      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
-      "publishedAt": "2026-06-29T14:00:08.000Z",
-      "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands."
+      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "publishedAt": "2026-06-30T15:08:42.000Z",
+      "summary": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Omen AI’s plan to optimize data centers is all wet",
-      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
-      "publishedAt": "2026-06-29T13:00:00.000Z",
-      "summary": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers."
+      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "publishedAt": "2026-06-30T15:00:00.000Z",
+      "summary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Pair Nova 2 Lite with Claude for cost-optimized document processing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/",
+      "publishedAt": "2026-06-29T17:52:33.000Z",
+      "summary": "In this post, we show how pairing Amazon Nova 2 Lite with Anthropic’s Claude Sonnet 4.6 delivers an efficient solution for digitizing scanned documents at scale. We built a two-model pipeline on Amazon Bedrock for digitizing scanned yearbook pages. Amazon Nova 2 Lite handles native multimodal extraction in a single call: detecting photos, extracting visible names with coordinates, and returning page-level metadata. Claude Sonnet 4.6 then performs spatial reasoning to match names to faces based on page layout."
+    },
+    {
+      "source": "OpenAI",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
+    },
+    {
+      "source": "Google AI",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "publishedAt": "2026-06-30T06:00:00.000Z",
+      "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies."
+    },
+    {
+      "source": "Google AI",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "publishedAt": "2026-06-29T16:00:00.000Z",
+      "summary": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long."
     }
   ]
 }
