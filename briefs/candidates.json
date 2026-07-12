@@ -1,40 +1,19 @@
 {
-  "targetDate": "2026-07-10",
+  "targetDate": "2026-07-11",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Scaling agentic workflows with native case management in Amazon Quick Automate",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-workflows-with-native-case-management-in-amazon-quick-automate/",
-      "publishedAt": "2026-07-10T15:28:54.000Z",
-      "summary": "In this post, we show you how to combine case management with agentic automation capabilities in Quick Automate. We introduce case management and explore the lifecycle of cases in an agentic workflow from case creation through processing to resolution. We cover how to create and manage single or multiple cases, automatically track and update status, handle exceptions, and incorporate Human-in-the-loop (HITL) steps within workflows. We also show the case creator-processor pattern that enables dynamic scaling. Finally, we walk through how to structure case management for enterprise processes, including HITL and case tracking, through a real-life use case."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-07-10T15:23:25.000Z",
-      "summary": "Evolving from a traditional software as a service (SaaS) platform into a next-generation agentic AI platform meant orchestrating multiple specialized agents across long-running enterprise programs. Each agent operates with persistent context, secure tool access, and production-grade reliability. We built that system on Amazon Bedrock AgentCore using the Strands Agents SDK. This post walks through how we architected it, which agents we built, and the outcomes for our customers."
+      "source": "TechCrunch AI",
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "publishedAt": "2026-07-11T14:13:00.000Z",
+      "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
-      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "publishedAt": "2026-07-10T00:16:54.000Z",
-      "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "publishedAt": "2026-07-09T22:24:24.000Z",
-      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity."
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "publishedAt": "2026-07-10T07:00:00.000Z",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
+      "title": "Meta removes controversial AI feature on Instagram after backlash",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "publishedAt": "2026-07-10T23:55:07.000Z",
+      "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\""
     }
   ]
 }
