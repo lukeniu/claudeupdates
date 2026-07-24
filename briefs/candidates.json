@@ -1,54 +1,26 @@
 {
-  "targetDate": "2026-07-22",
+  "targetDate": "2026-07-23",
   "candidates": [
     {
       "source": "OpenAI",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "publishedAt": "2026-07-22T05:30:00.000Z",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
+      "title": "Launching Health in ChatGPT",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-      "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-      "publishedAt": "2026-07-22T10:00:00.000Z",
-      "summary": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises."
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI says Hugging Face was breached by its pre-release models",
-      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-      "publishedAt": "2026-07-21T20:56:55.000Z",
-      "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry."
-    },
-    {
-      "source": "OpenAI",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/",
-      "publishedAt": "2026-07-22T15:54:28.000Z",
-      "summary": "AI Teammates are agentic AI on Amazon Bedrock, and few engineering organizations run them in production at the scale that monday.com does. Nine in ten Builders use AI coding tools every month, up from roughly half a year ago. Per-engineer PR throughput is up by more than half. Every figure in this post comes from monday’s own internal production data. In this post, we share the architecture behind those numbers, the retrofits that made it work in a decade-old code base, and the confidence-scored merge play closing the gap to full autonomy."
-    },
-    {
-      "source": "Google AI",
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "summary": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova",
-      "url": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/",
-      "publishedAt": "2026-07-21T16:23:12.000Z",
-      "summary": "In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations."
+      "title": "Google’s Gemini nears billion-user milestone",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "publishedAt": "2026-07-23T14:52:44.000Z",
+      "summary": "Gemini had over 750 million monthly users in February."
     }
   ]
 }
