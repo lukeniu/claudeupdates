@@ -1,26 +1,33 @@
 {
-  "targetDate": "2026-07-23",
+  "targetDate": "2026-07-24",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "Launching Health in ChatGPT",
-      "url": "https://openai.com/index/health-in-chatgpt",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
+      "source": "AWS Machine Learning",
+      "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
+      "publishedAt": "2026-07-24T15:40:08.000Z",
+      "summary": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+      "publishedAt": "2026-07-23T16:42:54.000Z",
+      "summary": "In this post, we explore how Jefferies overcame these challenges with a solution built on Strands Agents, an agent harness SDK for building AI agents that can reason, plan, and act by orchestrating calls to foundation models (FMs) and external tools. The solution uses large language models (LLMs), Amazon Bedrock, and Amazon Bedrock Knowledge Bases. It also uses Model Context Protocol (MCP), an open standard that helps AI agents securely connect to diverse data sources and tools through a unified interface. We cover the solution overview, the rationale for selecting the underlying technology stack, lessons learned, and the business impact the solution created at Jefferies."
     },
     {
       "source": "TechCrunch AI",
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "publishedAt": "2026-07-23T15:00:00.000Z",
-      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says."
+      "title": "‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street",
+      "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+      "publishedAt": "2026-07-24T14:00:00.000Z",
+      "summary": "Chinese AI lab Moonshot’s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real security breach at Hugging Face — a reminder […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "Google’s Gemini nears billion-user milestone",
-      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
-      "publishedAt": "2026-07-23T14:52:44.000Z",
-      "summary": "Gemini had over 750 million monthly users in February."
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "publishedAt": "2026-07-23T17:07:35.000Z",
+      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost."
     }
   ]
 }
