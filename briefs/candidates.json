@@ -1,47 +1,54 @@
 {
-  "targetDate": "2026-07-28",
+  "targetDate": "2026-07-29",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
-      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
-      "publishedAt": "2026-07-28T14:00:00.000Z",
-      "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-      "publishedAt": "2026-07-27T18:32:11.000Z",
-      "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform."
+      "source": "OpenAI",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar."
     },
     {
       "source": "Google AI",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "publishedAt": "2026-07-28T13:00:00.000Z",
-      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/",
-      "publishedAt": "2026-07-27T16:11:32.000Z",
-      "summary": "Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific representations, cache them at multiple fidelity tiers, and route each query to the right tier, with an open-source implementation you can deploy."
+      "title": "How AgentCore Gateway supports the MCP 2026-07-28 spec",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/",
+      "publishedAt": "2026-07-28T19:07:09.000Z",
+      "summary": "The Model Context Protocol (MCP) published its 2026-07-28 specification, the largest revision since launch: MCP is now stateless, with a governed extensions system and hardened authorization. Learn what changed and how to enable the new version on Amazon Bedrock AgentCore Gateway with a single UpdateGateway call."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Deepgram enhances Amazon SageMaker AI support with AWS IAM Temporary Delegation",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-enhances-amazon-sagemaker-ai-support-with-aws-iam-temporary-delegation/",
-      "publishedAt": "2026-07-27T16:07:44.000Z",
-      "summary": "In this post, we cover why Deepgram built on IAM temporary delegation, how the integration works end-to-end, and what it unlocks for customers running Deepgram speech models on SageMaker AI. With this integration, Deepgram has reduced the time for initial investigation on a SageMaker AI support ticket from days to minutes."
+      "title": "Generate Autonomous Business Insights with AI Agent and MCP Servers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/",
+      "publishedAt": "2026-07-29T15:34:18.000Z",
+      "summary": "Learn how Amazon Bedrock AgentCore delivers autonomous, cross-system business intelligence through configuration rather than custom code. Using pre-built MCP server connectors, fine-grained access control, and persistent memory, enterprises can query multiple data sources with natural language while enforcing role-based boundaries automatically."
     },
     {
-      "source": "Google AI",
-      "title": "5 ways to host the ultimate dinner party with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-      "publishedAt": "2026-07-28T13:00:00.000Z",
-      "summary": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks."
+      "source": "TechCrunch AI",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+      "publishedAt": "2026-07-29T14:41:06.000Z",
+      "summary": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents."
     }
   ]
 }
