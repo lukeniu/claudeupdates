@@ -1,19 +1,40 @@
 {
-  "targetDate": "2026-08-09",
+  "targetDate": "2026-08-10",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "The AI safety test is becoming a safety risk",
-      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "publishedAt": "2026-08-09T14:30:00.000Z",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models."
+      "source": "Google AI",
+      "title": "Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "publishedAt": "2026-08-10T14:30:00.000Z",
+      "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "publishedAt": "2026-08-08T19:41:13.000Z",
-      "summary": "NextSlide says its team members are now working on ChatGPT."
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "publishedAt": "2026-08-09T19:20:32.000Z",
+      "summary": "Programming with Claude Code will soon require even less human oversight."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips."
     }
   ]
 }
