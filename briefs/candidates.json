@@ -1,54 +1,47 @@
 {
-  "targetDate": "2026-08-12",
+  "targetDate": "2026-08-13",
   "candidates": [
     {
       "source": "OpenAI",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "publishedAt": "2026-08-12T06:00:00.000Z",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Pay with confidence: How Solv Labs built verifiable, auditable agent payments on Amazon Bedrock AgentCore payments",
-      "url": "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/",
-      "publishedAt": "2026-08-12T13:44:58.000Z",
-      "summary": "Solv Labs built a governed agent-payments workflow on Amazon Bedrock AgentCore payments, where every transaction is authorized, attested in an AWS Nitro Enclave, priced for risk, and anchored to a public blockchain before settlement. See how the pattern gives enterprises a verifiable, auditable trail for autonomous agent payments in regulated environments."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/",
-      "publishedAt": "2026-08-12T13:46:28.000Z",
-      "summary": "Learn how OneAdvanced, a UK enterprise software provider, built a UK-sovereign AI platform by self-hosting Llama 4 Maverick and Llama Guard 4 on Amazon SageMaker AI, with a RAG pipeline on pgvector and over 50 agents built with Strands Agents SDK on Amazon ECS."
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "publishedAt": "2026-08-13T11:00:00.000Z",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "publishedAt": "2026-08-11T19:15:35.000Z",
-      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "An unreleased Anthropic model made progress on one of math’s biggest unsolved problems",
-      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-      "publishedAt": "2026-08-11T16:25:20.000Z",
-      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect."
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "publishedAt": "2026-08-12T17:41:29.000Z",
+      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital."
     },
     {
       "source": "OpenAI",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "url": "https://openai.com/index/ringcentral",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second."
     },
     {
-      "source": "Google AI",
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings."
+      "source": "AWS Machine Learning",
+      "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/",
+      "publishedAt": "2026-08-13T15:56:07.000Z",
+      "summary": "Learn how to automate legacy web applications that need human-like interaction using Amazon Bedrock AgentCore Browser Tool and Strands Agents. This walkthrough covers a reference architecture for an AI-powered digital worker that drives legacy interfaces through secure, isolated browser sessions while preserving human oversight and full audit trails."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Amazon Quick for Microsoft 365: Agentic AI where you work",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/",
+      "publishedAt": "2026-08-13T15:48:15.000Z",
+      "summary": "Amazon Quick is now available directly inside Microsoft Word, Excel, PowerPoint, and Outlook. These extensions bring connected data access and agentic document editing into the Microsoft 365 apps your teams already use, so you can analyze data, draft content, and reach enterprise knowledge without switching applications."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "publishedAt": "2026-08-13T15:30:52.000Z",
+      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character."
     }
   ]
 }
