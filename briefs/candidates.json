@@ -1,40 +1,19 @@
 {
-  "targetDate": "2026-08-14",
+  "targetDate": "2026-08-15",
   "candidates": [
     {
       "source": "AWS Machine Learning",
-      "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-      "publishedAt": "2026-08-14T15:58:44.000Z",
-      "summary": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default."
+      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
+      "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
+      "publishedAt": "2026-08-14T16:02:10.000Z",
+      "summary": "In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that quietly collapse a reward."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "publishedAt": "2026-08-13T19:22:40.000Z",
-      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "publishedAt": "2026-08-14T15:43:28.000Z",
-      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]"
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
-      "url": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/",
-      "publishedAt": "2026-08-13T16:02:10.000Z",
-      "summary": "Set up Amazon Bedrock AgentCore Observability for AI agents running outside AWS: on-premises, on GCP, on Azure, or on developer machines. This walkthrough uses the AWS Distro for OpenTelemetry (ADOT) and IAM credentials to route session traces, span metrics, and token usage to the same AgentCore Observability dashboard."
-    },
-    {
-      "source": "Google AI",
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "publishedAt": "2026-08-13T16:45:00.000Z",
-      "summary": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt."
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "publishedAt": "2026-08-14T16:13:40.000Z",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file."
     }
   ]
 }
