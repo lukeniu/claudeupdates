@@ -1,54 +1,33 @@
 {
-  "targetDate": "2026-08-20",
+  "targetDate": "2026-08-21",
   "candidates": [
     {
       "source": "TechCrunch AI",
-      "title": "Google packs Search and Gemini with new AI study tools",
-      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI."
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "publishedAt": "2026-08-20T22:36:37.000Z",
+      "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is."
     },
     {
-      "source": "OpenAI",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+      "source": "AWS Machine Learning",
+      "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "publishedAt": "2026-08-20T21:46:03.000Z",
+      "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profiles route requests for higher throughput, how to call the models with the OpenAI and Converse APIs, and how to configure IAM, quotas, and monitoring."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/",
+      "publishedAt": "2026-08-20T16:24:12.000Z",
+      "summary": "Scaling agentic AI across an enterprise requires patterns that preserve flexibility while avoiding vendor lock-in. In this second post of our multi-agent series, we examine how ML teams operate many agentic AI systems across a multi-everything environment of frameworks, models, and providers, and the principles that let those systems scale together."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "publishedAt": "2026-08-20T09:30:00.000Z",
-      "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/",
-      "publishedAt": "2026-08-20T15:20:03.000Z",
-      "summary": "Learn how to add context-aware security monitoring to FHIR APIs using Amazon Bedrock. This post shows how to detect anomalous access patterns, classify data sensitivity automatically, and generate compliance reports in natural language, all without adding latency to clinical workflows."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Domain and publish date filters for Web Search on AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
-      "publishedAt": "2026-08-19T22:13:20.000Z",
-      "summary": "Web Search on Amazon Bedrock AgentCore now supports runtime domain and published-date filtering. New per-request filters give developers per-call control over which web sources their agents consult and how fresh those sources must be, all enforced server-side. This release also expands Web Search to the Europe (Ireland) and Asia Pacific (Tokyo) Regions."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
-    },
-    {
-      "source": "Google AI",
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests."
+      "title": "Ramp launches its own AI model router, called Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "publishedAt": "2026-08-20T16:46:00.000Z",
+      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API."
     }
   ]
 }
