@@ -1,33 +1,19 @@
 {
-  "targetDate": "2026-08-22",
+  "targetDate": "2026-08-23",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
-      "publishedAt": "2026-08-21T17:02:35.000Z",
-      "summary": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real governance pain demands it."
+      "source": "TechCrunch AI",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "publishedAt": "2026-08-22T19:00:00.000Z",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "publishedAt": "2026-08-21T23:07:25.000Z",
-      "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "publishedAt": "2026-08-21T19:43:39.000Z",
-      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
-      "publishedAt": "2026-08-21T17:06:17.000Z",
-      "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline."
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "publishedAt": "2026-08-23T15:00:00.000Z",
+      "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?"
     }
   ]
 }
