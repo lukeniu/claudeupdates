@@ -1,47 +1,33 @@
 {
-  "targetDate": "2026-09-03",
+  "targetDate": "2026-09-04",
   "candidates": [
     {
       "source": "AWS Machine Learning",
-      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
-      "publishedAt": "2026-09-02T21:22:05.000Z",
-      "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor usage with Amazon CloudWatch."
+      "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
+      "publishedAt": "2026-09-03T16:10:39.000Z",
+      "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center access and a managed Portkey deployment."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
-      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
-      "publishedAt": "2026-09-03T15:00:00.000Z",
-      "summary": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "publishedAt": "2026-09-02T20:19:14.000Z",
-      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "publishedAt": "2026-09-03T13:15:00.000Z",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "publishedAt": "2026-09-03T18:01:45.000Z",
+      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\""
     },
     {
       "source": "AWS Machine Learning",
-      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-09-02T18:18:47.000Z",
-      "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline."
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-09-03T16:16:28.000Z",
+      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on Amazon Bedrock AgentCore, Kiro, and Claude Code: an SQL-to-ER-diagram generator and a multi-agent code security analyzer that put the AI-DLC construction phase into practice."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "publishedAt": "2026-09-03T18:37:57.000Z",
+      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity."
     }
   ]
 }
