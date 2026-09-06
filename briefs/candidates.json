@@ -1,33 +1,33 @@
 {
-  "targetDate": "2026-09-04",
+  "targetDate": "2026-09-05",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
-      "publishedAt": "2026-09-03T16:10:39.000Z",
-      "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center access and a managed Portkey deployment."
-    },
-    {
       "source": "TechCrunch AI",
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "publishedAt": "2026-09-03T18:01:45.000Z",
-      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\""
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "publishedAt": "2026-09-04T23:15:11.000Z",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-09-03T16:16:28.000Z",
-      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on Amazon Bedrock AgentCore, Kiro, and Claude Code: an SQL-to-ER-diagram generator and a multi-agent code security analyzer that put the AI-DLC construction phase into practice."
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+      "publishedAt": "2026-09-04T17:20:04.000Z",
+      "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: scoring, consolidating, and pruning agent memories on a nightly AWS Step Functions workflow, with a deployable AWS CDK stack."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Abliteration.ai is making a business out of removing AI guardrails",
-      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-      "publishedAt": "2026-09-03T18:37:57.000Z",
-      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity."
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "publishedAt": "2026-09-04T16:21:11.000Z",
+      "summary": "It's the latest failure of OpenAI's internal monitoring and security systems."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-09-04T21:45:52.000Z",
+      "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels."
     }
   ]
 }
