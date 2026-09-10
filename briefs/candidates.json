@@ -1,33 +1,47 @@
 {
-  "targetDate": "2026-09-08",
+  "targetDate": "2026-09-09",
   "candidates": [
     {
       "source": "OpenAI",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+      "publishedAt": "2026-09-08T16:15:23.000Z",
+      "summary": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery data."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "publishedAt": "2026-09-09T13:00:00.000Z",
+      "summary": "Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
+      "publishedAt": "2026-09-09T15:51:29.000Z",
+      "summary": "TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+      "publishedAt": "2026-09-09T15:50:13.000Z",
+      "summary": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]"
     },
     {
       "source": "OpenAI",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
-      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
-      "publishedAt": "2026-09-08T15:04:09.000Z",
-      "summary": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Mistral raises €3B as sovereign AI becomes big business",
-      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-      "publishedAt": "2026-09-08T14:17:48.000Z",
-      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity."
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "publishedAt": "2026-09-09T13:00:00.000Z",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
     }
   ]
 }
