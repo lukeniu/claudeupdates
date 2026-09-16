@@ -1,47 +1,47 @@
 {
-  "targetDate": "2026-09-14",
+  "targetDate": "2026-09-15",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+      "source": "TechCrunch AI",
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic."
+    },
+    {
+      "source": "Google AI",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
-      "publishedAt": "2026-09-14T15:58:57.000Z",
-      "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scores compliance, and compresses open finance onboarding from weeks to minutes while meeting SOC 2 and PCI DSS requirements."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
-      "publishedAt": "2026-09-14T15:00:00.000Z",
-      "summary": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026."
-    },
-    {
-      "source": "OpenAI",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+      "publishedAt": "2026-09-14T21:22:45.000Z",
+      "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
-      "publishedAt": "2026-09-14T15:47:12.000Z",
-      "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must."
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-09-14T20:35:45.000Z",
+      "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack authorization code grant targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
-      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
-      "publishedAt": "2026-09-14T14:45:44.000Z",
-      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now."
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "publishedAt": "2026-09-15T15:47:03.000Z",
+      "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China."
+    },
+    {
+      "source": "Google AI",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience."
     }
   ]
 }
