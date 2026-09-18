@@ -1,61 +1,47 @@
 {
-  "targetDate": "2026-09-16",
+  "targetDate": "2026-09-17",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
-    },
-    {
       "source": "AWS Machine Learning",
-      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
-      "publishedAt": "2026-09-15T16:18:19.000Z",
-      "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt caching scenarios using the Converse API: message content, system prompt, tool definition, mixed TTL, tenant isolation, and LangChain integration."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-09-16T15:47:39.000Z",
-      "summary": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch post explains how the system prompt optimizer's reflector engine works and shares benchmark results for the Single Agent and Sub-Agent Reflectors."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Former Infosys chief’s AI startup nabs another $53M",
-      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "publishedAt": "2026-09-15T20:12:53.000Z",
-      "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting."
+      "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+      "publishedAt": "2026-09-17T15:30:17.000Z",
+      "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to apply per-user, per-tool role-based and attribute-based access control, with a server-side check and an immutable audit trail."
     },
     {
       "source": "OpenAI",
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work."
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work."
     },
     {
-      "source": "Google AI",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed."
+      "source": "OpenAI",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
     },
     {
-      "source": "Google AI",
-      "title": "AI for Societal Impact",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI."
+      "source": "AWS Machine Learning",
+      "title": "Improving HCLS AI reasoning with open-source agent skills",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+      "publishedAt": "2026-09-16T19:00:00.000Z",
+      "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation showing a 70-86% win rate."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "publishedAt": "2026-09-17T14:06:14.000Z",
+      "summary": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+      "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+      "publishedAt": "2026-09-17T13:46:16.000Z",
+      "summary": "People can use these assistants to make restaurant reservations and cancel subscriptions."
     }
   ]
 }
