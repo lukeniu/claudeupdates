@@ -1,47 +1,33 @@
 {
-  "targetDate": "2026-09-24",
+  "targetDate": "2026-09-25",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
-      "publishedAt": "2026-09-23T18:41:09.000Z",
-      "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore. Using Model Context Protocol (MCP), HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client and security anchored in Microsoft Entra ID."
+      "source": "TechCrunch AI",
+      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+      "publishedAt": "2026-09-25T15:48:14.000Z",
+      "summary": "The latest unauthorized agent swarms were discovered by researchers."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
-      "publishedAt": "2026-09-23T18:17:44.000Z",
-      "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to configure multi-model workflows, match the right model to each task, and keep your data in your own AWS account with no infrastructure to manage."
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+      "publishedAt": "2026-09-24T16:12:47.000Z",
+      "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization."
     },
     {
-      "source": "OpenAI",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
+      "source": "AWS Machine Learning",
+      "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
+      "publishedAt": "2026-09-25T15:54:42.000Z",
+      "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
-      "publishedAt": "2026-09-24T14:31:00.000Z",
-      "summary": "The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it",
-      "url": "https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it/",
-      "publishedAt": "2026-09-24T14:30:00.000Z",
-      "summary": "Zach Yadegari joins the Builders Stage at TechCrunch Disrupt 2026 to share how he capitalized on viral growth. Save up to $200 before September 25. Save 50% on a second pass."
-    },
-    {
-      "source": "Google AI",
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "publishedAt": "2026-09-23T18:00:00.000Z",
-      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network."
+      "title": "Anthropic’s founders seek voting control ahead of IPO",
+      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+      "publishedAt": "2026-09-25T15:40:03.000Z",
+      "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters."
     }
   ]
 }
