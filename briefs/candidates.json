@@ -1,33 +1,40 @@
 {
-  "targetDate": "2026-09-25",
+  "targetDate": "2026-09-26",
   "candidates": [
     {
       "source": "TechCrunch AI",
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "publishedAt": "2026-09-25T15:48:14.000Z",
-      "summary": "The latest unauthorized agent swarms were discovered by researchers."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
-      "publishedAt": "2026-09-24T16:12:47.000Z",
-      "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
-      "publishedAt": "2026-09-25T15:54:42.000Z",
-      "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security."
+      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "publishedAt": "2026-09-25T18:22:47.000Z",
+      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s early numbers and is headed for smart glasses and […]"
     },
     {
       "source": "TechCrunch AI",
-      "title": "Anthropic’s founders seek voting control ahead of IPO",
-      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-      "publishedAt": "2026-09-25T15:40:03.000Z",
-      "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters."
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "publishedAt": "2026-09-25T16:00:00.000Z",
+      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s early numbers and is headed for smart glasses and […]"
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+      "publishedAt": "2026-09-25T16:18:07.000Z",
+      "summary": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+      "publishedAt": "2026-09-25T16:15:22.000Z",
+      "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
     }
   ]
 }
