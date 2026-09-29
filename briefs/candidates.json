@@ -1,19 +1,47 @@
 {
-  "targetDate": "2026-09-27",
+  "targetDate": "2026-09-28",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "publishedAt": "2026-09-27T01:30:00.000Z",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October."
+      "source": "OpenAI",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Implementing synthetic monitoring using Amazon Nova Act",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+      "publishedAt": "2026-09-28T15:56:32.000Z",
+      "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user-journey validation that moves beyond brittle UI scripts, with a complete sample implementation."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "publishedAt": "2026-09-26T21:02:06.000Z",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period."
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-09-28T15:30:00.000Z",
+      "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+      "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+      "publishedAt": "2026-09-28T15:00:00.000Z",
+      "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in Startup Battlefield at TechCrunch Disrupt."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+      "publishedAt": "2026-09-28T15:49:04.000Z",
+      "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security controls such as VPC endpoints, encryption, and least-privilege IAM."
     }
   ]
 }
