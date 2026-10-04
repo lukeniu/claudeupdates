@@ -1,54 +1,26 @@
 {
-  "targetDate": "2026-10-02",
+  "targetDate": "2026-10-03",
   "candidates": [
     {
       "source": "OpenAI",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-10-02T15:46:05.000Z",
-      "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
-      "publishedAt": "2026-10-02T15:44:20.000Z",
-      "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in retrieval quality and reliability."
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Amazon releases its own Jev clone as decision models flood the web",
-      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
-      "publishedAt": "2026-10-01T16:49:22.000Z",
-      "summary": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B."
+      "title": "All the AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "publishedAt": "2026-10-03T14:00:00.000Z",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
     },
     {
       "source": "TechCrunch AI",
-      "title": "ChatGPT can now virtually try on clothes for you",
-      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "publishedAt": "2026-10-01T19:21:53.000Z",
-      "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library."
-    },
-    {
-      "source": "Google AI",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "summary": "Here are Google’s latest AI updates from September 2026"
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "publishedAt": "2026-10-02T18:11:27.000Z",
+      "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier."
     }
   ]
 }
