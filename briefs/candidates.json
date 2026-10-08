@@ -1,47 +1,54 @@
 {
-  "targetDate": "2026-10-06",
+  "targetDate": "2026-10-07",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Introducing GLM 5.3 on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-      "publishedAt": "2026-10-05T23:25:17.000Z",
-      "summary": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent."
-    },
-    {
       "source": "OpenAI",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "publishedAt": "2026-10-06T10:00:00.000Z",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-      "publishedAt": "2026-10-05T17:25:20.000Z",
-      "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads."
+      "title": "Beyond hours saved: Building the business case for agentic automation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+      "publishedAt": "2026-10-07T15:50:00.000Z",
+      "summary": "The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to size the full value of agents across time savings, exception handling, decision quality, and maintenance economics, and to prioritize which workflows to automate first."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+      "publishedAt": "2026-10-07T15:48:46.000Z",
+      "summary": "Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+      "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+      "publishedAt": "2026-10-07T14:30:00.000Z",
+      "summary": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How AI decision models could change content moderation",
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "publishedAt": "2026-10-06T20:35:20.000Z",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights."
     },
     {
       "source": "OpenAI",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
     },
     {
-      "source": "TechCrunch AI",
-      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "publishedAt": "2026-10-06T14:33:16.000Z",
-      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "publishedAt": "2026-10-05T19:33:53.000Z",
-      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data."
+      "source": "Google AI",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games."
     }
   ]
 }
