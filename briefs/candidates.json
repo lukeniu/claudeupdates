@@ -1,33 +1,19 @@
 {
-  "targetDate": "2026-10-17",
+  "targetDate": "2026-10-18",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-10-16T20:48:16.000Z",
-      "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production."
+      "source": "TechCrunch AI",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "publishedAt": "2026-10-17T18:48:08.000Z",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
     },
     {
       "source": "TechCrunch AI",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "publishedAt": "2026-10-16T17:52:24.000Z",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "publishedAt": "2026-10-16T16:30:00.000Z",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "publishedAt": "2026-10-16T19:00:00.000Z",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "publishedAt": "2026-10-17T21:31:32.000Z",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
     }
   ]
 }
