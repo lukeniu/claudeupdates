@@ -1,54 +1,47 @@
 {
-  "targetDate": "2026-10-27",
+  "targetDate": "2026-10-28",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
-      "publishedAt": "2026-10-26T17:27:20.000Z",
-      "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn."
+      "source": "OpenAI",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
     },
     {
       "source": "OpenAI",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "publishedAt": "2026-10-27T15:00:00.000Z",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "publishedAt": "2026-10-28T09:30:00.000Z",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
     },
     {
       "source": "TechCrunch AI",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "publishedAt": "2026-10-27T02:00:00.000Z",
-      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "publishedAt": "2026-10-28T15:00:00.000Z",
+      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs."
     },
     {
-      "source": "OpenAI",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "publishedAt": "2026-10-27T07:00:00.000Z",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
+      "source": "TechCrunch AI",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "publishedAt": "2026-10-27T17:08:08.000Z",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-      "publishedAt": "2026-10-26T17:15:14.000Z",
-      "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application."
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "publishedAt": "2026-10-27T16:53:02.000Z",
+      "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes."
     },
     {
-      "source": "TechCrunch AI",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "publishedAt": "2026-10-27T01:12:21.000Z",
-      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI."
-    },
-    {
-      "source": "Google AI",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "publishedAt": "2026-10-26T16:00:00.000Z",
-      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”"
+      "source": "AWS Machine Learning",
+      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "publishedAt": "2026-10-27T16:50:55.000Z",
+      "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost."
     }
   ]
 }
