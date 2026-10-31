@@ -1,47 +1,47 @@
 {
-  "targetDate": "2026-10-29",
+  "targetDate": "2026-10-30",
   "candidates": [
     {
-      "source": "OpenAI",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+      "source": "AWS Machine Learning",
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "publishedAt": "2026-10-29T16:54:52.000Z",
+      "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work."
     },
     {
       "source": "AWS Machine Learning",
-      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-      "publishedAt": "2026-10-28T18:28:26.000Z",
-      "summary": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "publishedAt": "2026-10-28T19:19:58.000Z",
-      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO."
+      "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+      "publishedAt": "2026-10-29T16:11:08.000Z",
+      "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM."
     },
     {
       "source": "OpenAI",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "publishedAt": "2026-10-29T07:00:00.000Z",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
     },
     {
-      "source": "AWS Machine Learning",
-      "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
-      "publishedAt": "2026-10-28T18:12:13.000Z",
-      "summary": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and change what."
+      "source": "OpenAI",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "publishedAt": "2026-10-29T14:35:26.000Z",
-      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation."
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "publishedAt": "2026-10-30T13:54:25.000Z",
+      "summary": "DoorDash said that it is open to working with third-party agent makers."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "publishedAt": "2026-10-29T19:56:19.000Z",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
     }
   ]
 }
