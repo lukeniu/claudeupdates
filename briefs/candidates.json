@@ -1,19 +1,33 @@
 {
-  "targetDate": "2026-11-01",
+  "targetDate": "2026-11-02",
   "candidates": [
     {
-      "source": "TechCrunch AI",
-      "title": "OpenAI reportedly lowers funding target for new round",
-      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-      "publishedAt": "2026-10-31T16:12:55.000Z",
-      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations."
+      "source": "OpenAI",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
     },
     {
       "source": "TechCrunch AI",
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-      "publishedAt": "2026-10-31T21:41:00.000Z",
-      "summary": "Apple's new CEO defended the company's current position in the AI landscape."
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "publishedAt": "2026-11-02T13:57:53.000Z",
+      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change."
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "publishedAt": "2026-11-01T21:55:23.000Z",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?"
     }
   ]
 }
