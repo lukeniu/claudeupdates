@@ -1,33 +1,19 @@
 {
-  "targetDate": "2026-11-07",
+  "targetDate": "2026-11-08",
   "candidates": [
     {
-      "source": "AWS Machine Learning",
-      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
-      "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
-      "publishedAt": "2026-11-06T17:13:13.000Z",
-      "summary": "Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
-      "publishedAt": "2026-11-06T17:09:23.000Z",
-      "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta's log in Amazon CloudWatch."
+      "source": "TechCrunch AI",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry."
     },
     {
       "source": "TechCrunch AI",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "publishedAt": "2026-11-06T22:53:46.000Z",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "publishedAt": "2026-11-06T18:44:38.000Z",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool."
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
     }
   ]
 }
