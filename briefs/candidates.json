@@ -1,19 +1,4 @@
 {
-  "targetDate": "2026-11-14",
-  "candidates": [
-    {
-      "source": "AWS Machine Learning",
-      "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
-      "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
-      "publishedAt": "2026-11-13T22:30:12.000Z",
-      "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines."
-    },
-    {
-      "source": "AWS Machine Learning",
-      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
-      "publishedAt": "2026-11-13T23:22:09.000Z",
-      "summary": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes."
-    }
-  ]
+  "targetDate": "2026-11-15",
+  "candidates": []
 }
