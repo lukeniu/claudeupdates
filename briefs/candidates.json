@@ -1,4 +1,40 @@
 {
-  "targetDate": "2026-11-15",
-  "candidates": []
+  "targetDate": "2026-11-16",
+  "candidates": [
+    {
+      "source": "AWS Machine Learning",
+      "title": "Use prompt caching with open-weight models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/",
+      "publishedAt": "2026-11-16T15:42:41.000Z",
+      "summary": "Many generative AI applications resend the same long context on every request. Prompt caching lets open-weight models on Amazon Bedrock reuse it to reduce input cost and latency. This post shows implicit and explicit caching through the Chat Completions API and applies caching to an OpenCode coding agent session."
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "publishedAt": "2026-11-16T09:30:00.000Z",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security."
+    },
+    {
+      "source": "OpenAI",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
+    },
+    {
+      "source": "Google AI",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features."
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
+      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
+      "publishedAt": "2026-11-16T15:48:01.000Z",
+      "summary": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't."
+    }
+  ]
 }
